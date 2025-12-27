@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-25T17:51:19 IST" name="Default suite" finished-at="2025-12-25T17:51:50 IST" duration-ms="30614">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerClass.RunnerFile@70325e14]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-12-25T17:51:19 IST" name="Default test" finished-at="2025-12-25T17:51:50 IST" duration-ms="30614">
+      <class name="runnerClass.RunnerFile">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runnerClass.RunnerFile@70325e14]" started-at="2025-12-25T17:51:19 IST" name="setUpClass" finished-at="2025-12-25T17:51:20 IST" duration-ms="938" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5a9840f3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerClass.RunnerFile@70325e14]" started-at="2025-12-25T17:51:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-25T17:51:32 IST" duration-ms="12170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Signup for new user account"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To signup for a new user account"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerClass.RunnerFile@70325e14]" started-at="2025-12-25T17:51:32 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-25T17:51:44 IST" duration-ms="12019" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Signup for new user account"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To signup for a new user account"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerClass.RunnerFile@70325e14]" started-at="2025-12-25T17:51:44 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-25T17:51:49 IST" duration-ms="4981" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login page validation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login page validation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runnerClass.RunnerFile@70325e14]" started-at="2025-12-25T17:51:49 IST" name="tearDownClass" finished-at="2025-12-25T17:51:50 IST" duration-ms="439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runnerClass.RunnerFile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
