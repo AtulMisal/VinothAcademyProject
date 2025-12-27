@@ -43,6 +43,12 @@
 	    <artifactId>webdrivermanager</artifactId>
 	    <version>6.0.1</version>
 	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-json -->
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-json</artifactId>
+      <version>4.39.0</version>
+    </dependency>
 	<dependency>
        <groupId>org.projectlombok</groupId>
        <artifactId>lombok</artifactId>
